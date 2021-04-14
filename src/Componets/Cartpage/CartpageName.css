@@ -1,0 +1,30 @@
+.CartpageName__text {
+    position: relative;
+    text-align: center;
+    top : 50%;
+    left : 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+
+    font-family: 'Nanum Gothic';
+}
+
+.CartpageName__logo text {
+    width: 135px;
+    height: auto;
+}
+
+
+.CartpageName--pc {
+    padding: 2.7rem 0 1.8rem;
+    padding-top: 2.7rem;
+    padding-right: 0px;
+    padding-bottom: 1.8rem;
+    padding-left: 0px;
+}
+
+.h1 {
+    min-height: 2rem;
+    font-size: 2rem;
+}

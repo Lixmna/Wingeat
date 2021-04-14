@@ -1,12 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Routes from './Routes'
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
+import 'semantic-ui-css/semantic.min.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Routes />
   </React.StrictMode>,
   document.getElementById('root')
 );
