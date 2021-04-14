@@ -69,7 +69,6 @@ class ListData extends React.Component {
         const scrollTop = document.documentElement.scrollTop;
         const clientHeight = document.documentElement.clientHeight;
         if (scrollTop + clientHeight >= scrollHeight && this.state.Page <= 6 && this.state.Page !== 1) {
-          // 페이지 끝에 도달하면 추가 데이터를 받아온다
           this.getItemDataMore();
         }
     };
@@ -92,7 +91,7 @@ function Imgaes({Item, key}) {
     return (
         <div className="col-6 col-sm-4 col-md-3 mt-3 ListCard">
             <div className=" ListHeader" key = {key} >
-                <a href="#!" value={Item.index} onClick={
+                <a href="#!" className="ListItem" value={Item.index} onClick={
 
                 function (e) {
                 console.log(e.currentTarget.innerText);

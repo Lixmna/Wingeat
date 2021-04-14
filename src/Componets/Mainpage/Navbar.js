@@ -5,15 +5,6 @@ import { Nav, Form } from 'react-bootstrap';
 import './Navbar.css'
 
 class Navigation extends React.Component {
-
-    componentDidMount () {
-        this._mounted = true
-        
-     }
-     componentWillUnmount () {
-        this._mounted = false
-     }
-
     render()
     {
         return (
@@ -24,7 +15,7 @@ class Navigation extends React.Component {
                     <Form inline>
                         <div className="ui red circular label">
                             {localStorage.getItem('2')?(localStorage.getItem('2').split(',"""",')).length : 0} </div>
-                        <Link to="/cart">장바구니</Link>
+                        <Link to="/cart" className="LinkCart">장바구니</Link>
                     </Form>
                 </nav>
             </div>
