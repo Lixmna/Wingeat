@@ -15,7 +15,7 @@ class CartpageNavbar extends React.Component {
                     <Nav className="mr-auto">
                     </Nav>
                     <Form inline>
-                        <Link to="/">돌아가기</Link>
+                        <Link to="/" className="BackMain">돌아가기</Link>
                     </Form>
                 </nav>
             </div>

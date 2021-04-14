@@ -18,6 +18,10 @@
     width : 300px;
 }
 
+.BackMain {
+    color: black;
+}
+
 .z_box {
     position: absolute;
     top : 50%;
