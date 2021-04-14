@@ -1,0 +1,26 @@
+.a_layer {
+    display: table
+}
+
+.a_layer_inner {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.a_content {
+    display: inline-block;
+}
+
+.z_container {
+    position: relative;
+    width : 300px;
+}
+
+.z_box {
+    position: absolute;
+    top : 50%;
+    left : 50%;
+    transform: translate(-50%, -50%)
+}
